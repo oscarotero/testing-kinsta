@@ -1,16 +1,8 @@
 {
-  "name": "hello-world-lumen",
-  "version": "1.0.0",
-  "description": "",
-  "main": "_config.js",
+  "name": "hello-world-lume",
   "scripts": {
     "build": "deno task lume",
-    "start": "serve _site/"
-  },
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "serve": "^14.2.1"
+    "start": "deno run --allow-net --allow-read https://deno.land/std/http/file_server.ts"
   },
   "devDependencies": {
     "deno-bin": "^1.37.2"

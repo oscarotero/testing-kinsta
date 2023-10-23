@@ -1,5 +1,8 @@
 {
   "scripts": {
-    "build": "npx run deno-bin task lume"
+    "build": "deno task lume"
+  },
+  "devDependencies": {
+    "deno-bin": "^1.37.2"
   }
 }

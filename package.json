@@ -1,9 +1,5 @@
 {
-  "name": "hello-world-lume",
   "scripts": {
-    "build": "deno task lume"
-  },
-  "devDependencies": {
-    "deno-bin": "^1.37.2"
+    "build": "npx run deno-bin task lume"
   }
 }
